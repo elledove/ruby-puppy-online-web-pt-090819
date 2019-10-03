@@ -18,7 +18,7 @@ class Dog
   def self.print_all
     @@all.each { |dog| puts "#{dog}"}
   end
-  @@all
+  
   
   def initialize (name)
     @name = name 
